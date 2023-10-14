@@ -1,0 +1,104 @@
+.projContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.projWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 10px 0px 100px 0;
+    gap: 12px;
+}
+
+.projTitle {
+    font-family: var(--font-family);
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.projDesc {
+    font-family: var(--font-family);
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    padding: 10px;
+    color: #b9b9b9;
+}
+
+.projToggleButtonGroup {
+    display: flex;
+    border: 1.5px solid #002853;
+    color: #002853;
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin: 22px 0px;
+}
+
+.projToggleButton {
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.projToggleButton.active {
+    background: #002853 + 20;
+}
+
+.projToggleButton:hover {
+    background: #002853 + 20;
+}
+
+.projDivider {
+    width: 1.5px;
+    background: #002853;
+}
+
+.projCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .ToggleButton {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .projWrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projTitle {
+        margin-top: 12px;
+        font-size: 32px;
+    }
+
+    .projDesc {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .projToggleButtonGroup {
+        font-size: 12px;
+    }
+}

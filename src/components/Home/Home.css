@@ -1,0 +1,258 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04px;
+}
+
+.header-content p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.textLoop {
+    display: flex;
+    font-family: var(--font-family);
+    font-size: 40px;
+    line-height: 40px;
+    min-height: 45px;
+    margin-top: 1.5rem;
+}
+
+.textLoop-p {
+    color: #fff;
+}
+
+.typewrite-text {
+    padding-left: 0.5rem;
+}
+
+.header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content__input input {
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+
+.header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--gradient-text);
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+}
+
+.header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.header-content__people img {
+    width: 182px;
+    height: 40px;
+}
+
+.header-content__people p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    margin: 0 0 0 1rem;
+    text-align: center;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .header-image img {
+    width: auto;
+    height: 100%;
+    border-radius: 40%;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+} */
+
+.header-image img {
+    width: 95%;
+    height: 95%;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin: 0 0 3rem;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .header-image img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header-content__people {
+        flex-direction: column;
+    }
+
+    .header-content__people p {
+        margin: 0;
+    }
+
+    .header-content__people input,
+    .header-content__people button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.Typewriter__cursor {
+    position: relative;
+    /* Make sure the parent element is relatively positioned */
+}
+
+.Typewriter__cursor::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 40px;
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #AE67FA, #F49867) 1;
+}
+
+@media screen and (max-width: 650px) {
+    .header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-content__people input,
+    .header-content__people button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header-image img {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .textLoop {
+        font-size: 130% !important;
+    }
+
+    .Typewriter__cursor::after {
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+    .textLoop {
+        font-size: 26px !important;
+    }
+
+    .Typewriter__cursor::after {
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 600px) {
+    .textLoop {
+        font-size: 30px !important;
+    }
+
+    .Typewriter__cursor::after {
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .textLoop {
+        font-size: 35px !important;
+    }
+
+    .Typewriter__cursor::after {
+        bottom: 0px;
+    }
+}
