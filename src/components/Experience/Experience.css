@@ -47,6 +47,10 @@
     gap: 12px;
 }
 
+.timeLineSelection ul {
+    padding: 0 !important;
+}
+
 @media screen and (max-width: 960px) {
     .container {
         padding: 0px;
