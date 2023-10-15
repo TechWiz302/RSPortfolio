@@ -227,9 +227,10 @@
     }
 }
 
+
 @media screen and (min-width: 321px) and (max-width: 425px) {
     .textLoop {
-        font-size: 26px !important;
+        font-size: 140% !important;
     }
 
     .Typewriter__cursor::after {
