@@ -47,7 +47,7 @@ function Home() {
         </p>
 
         <div className="header-content__input">
-          <a href={Details.resume} target='display'><button type='button'>Download Resume</button></a> 
+          <a className='resumeButton' href={Details.resume} target='display'><button type='button'>Download Resume</button></a> 
           {/* <button type='button'>Download Resume</button> */}
         </div>
       </div>
