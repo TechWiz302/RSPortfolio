@@ -9,7 +9,7 @@ export const Details = {
     description:
         "Detail-oriented, organised and meticulous employee. Works at fast pace to meet tight deadlines. Enthusiastic team player ready to contribute to company success. Highly skilled software development professional bringing enormous talents for software design, development and integration.",
     github: "https://github.com/TechWiz302",
-    resume: "https://drive.google.com/file/d/1YtaCZug10uWT-6L56f42Lu4XlOgx-mDq/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/11aFc_qGO6b8b5QChYEOR8wba-cseMuUQ/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/rushikesh-shinde-34023417b/",
     insta: "https://www.instagram.com/rushis_21/",
     facebook: "https://www.facebook.com/rushikesh.shinde.3139241",
