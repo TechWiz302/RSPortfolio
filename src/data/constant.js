@@ -252,4 +252,40 @@ export const projects = [
         github: "https://github.com/TechWiz302/Restaurant-Landing-Website",
         webapp: "https://restaurant-landing-website.vercel.app/",
     },
+    {
+        id: 3,
+        title: "Library Management System cum Book App",
+        description:
+            "The Library Management System cum Book App is a comprehensive platform designed to streamline the process of managing library resources while providing users with easy access to a vast collection of books. This integrated system serves both library patrons and librarians efficiently.",
+        image:
+            "https://onedrive.live.com/embed?resid=B0D2119AEE6D848E%2121786&authkey=%21ADo-hvNTBLB-6-4&width=2880&height=1616",
+        tags: ["Python", "CSS", "HTML", "JavaScript", "UI/UX", "Django Web Framework"],
+        category: "web app",
+        github: "https://github.com/TechWiz302/LMS",
+        webapp: "https://rushi1530.pythonanywhere.com/",
+    },
+    {
+        id: 4,
+        title: "Encryption/ Decryption of Images using AES (React + Flask)",
+        description:
+            "Image encryption and decryption using the AES (Advanced Encryption Standard) algorithm with React for the front end and Flask for the backend involves creating a system where users can upload images, encrypt them using AES, store the encrypted images, and later decrypt them using the same key.",
+        image:
+            "https://onedrive.live.com/embed?resid=B0D2119AEE6D848E%2121784&authkey=%21ADzwENUmD9al3xI&width=2880&height=1608",
+        tags: ["Python", "CSS", "HTML", "JavaScript", "UI/UX", "Flask Web Framework", "React JS"],
+        category: "web app",
+        github: "https://github.com/TechWiz302/Image-Encryption-Decryption-using-AES-React-and-Flask",
+        webapp: "https://aes-image-encryption-decryption.vercel.app/",
+    },
+    {
+        id: 5,
+        title: "E - Commerce Website using React, Strapi and Stripe",
+        description:
+            "SonicSpectrum is a dynamic and feature-rich E-commerce platform designed to cater to music enthusiasts' needs, providing a diverse array of audio-related products while offering a seamless shopping experience. This platform encompasses a fully functional website that enables users to explore different categories of audio items, add preferred products to their carts, and seamlessly complete purchases.",
+        image:
+            "https://onedrive.live.com/embed?resid=B0D2119AEE6D848E%2121785&authkey=%21ANK12eJcVL4KRt0&width=2880&height=1616",
+        tags: ["API", "CSS", "HTML", "JavaScript", "UI/UX", "React Js", "Axios", "Strapi CMS", "Stripe"],
+        category: "web app",
+        github: "https://github.com/TechWiz302/E-Commerce-using-React-Strapi-Stripe",
+        webapp: "https://sonicspectrum-store.vercel.app/",
+    },
 ];
