@@ -113,7 +113,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEz0TCf5TijxSyb1TSf5TifrSSX2TSf0TCf2TSf6TijrSSX0TCf4TSf7TyjsSSU79qcKAAAADHRSTlMA4e4iR1YQO820ZICAJSLHAAAA6ElEQVQokXWSWRLEIAhEAfdE9P63HcDSLGO6kvy8NNIIwE0+Zw8fCtQahW/2SQ+DDTc0+En/vYEwwdH7jiZmFhpdMXN6+FiVHYAbpcO9pkFUmF/nBmSuVd7z6nnSgEqEcY3RPxMpEypP6zGK48g4vYmqSZ0CO3pwo2dKMH36UcglAkTLi5DrFPOA2rPBLMEWHc56upGH5C+Py2qQKyI3bmhXu6hGsVCNJ7tolyGcnce01kr4ca7NNhuj27okgzZbZK38uBZntEh8M7rXhVrl3nWMlOClKxFu1nPSHZt0z0Yi+lx5V8qjzx+XBhDROe95mQAAAABJRU5ErkJggg==",
+                    "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
             },
             {
                 name: "GitHub",
@@ -132,7 +132,7 @@ export const skills = [
             {
                 name: "Postman",
                 image:
-                    "https://w7.pngwing.com/pngs/17/131/png-transparent-postman-logo-thumbnail-tech-companies-thumbnail.png",
+                    "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
             },
             {
                 name: "Render",
