@@ -113,7 +113,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+                    "https://e7.pngegg.com/pngimages/685/833/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail.png",
             },
             {
                 name: "GitHub",
@@ -132,7 +132,7 @@ export const skills = [
             {
                 name: "Postman",
                 image:
-                    "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+                    "https://w7.pngwing.com/pngs/17/131/png-transparent-postman-logo-thumbnail-tech-companies-thumbnail.png",
             },
             {
                 name: "Render",
@@ -262,7 +262,7 @@ export const projects = [
         tags: ["Python", "CSS", "HTML", "JavaScript", "UI/UX", "Django Web Framework"],
         category: "web app",
         github: "https://github.com/TechWiz302/LMS",
-        webapp: "https://rushi1530.pythonanywhere.com/",
+        webapp: "https://github.com/TechWiz302/LMS",
     },
     {
         id: 4,
@@ -286,6 +286,6 @@ export const projects = [
         tags: ["API", "CSS", "HTML", "JavaScript", "UI/UX", "React Js", "Axios", "Strapi CMS", "Stripe"],
         category: "web app",
         github: "https://github.com/TechWiz302/E-Commerce-using-React-Strapi-Stripe",
-        webapp: "https://sonicspectrum-store.vercel.app/",
+        webapp: "https://sonicspectrum-shop.vercel.app/",
     },
 ];
