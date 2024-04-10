@@ -113,7 +113,7 @@ export const skills = [
             {
                 name: "Git",
                 image:
-                    "https://e7.pngegg.com/pngimages/685/833/png-clipart-red-sign-logo-git-logo-icons-logos-emojis-tech-companies-thumbnail.png",
+                    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEVHcEz0TCf5TijxSyb1TSf5TifrSSX2TSf0TCf2TSf6TijrSSX0TCf4TSf7TyjsSSU79qcKAAAADHRSTlMA4e4iR1YQO820ZICAJSLHAAAA6ElEQVQokXWSWRLEIAhEAfdE9P63HcDSLGO6kvy8NNIIwE0+Zw8fCtQahW/2SQ+DDTc0+En/vYEwwdH7jiZmFhpdMXN6+FiVHYAbpcO9pkFUmF/nBmSuVd7z6nnSgEqEcY3RPxMpEypP6zGK48g4vYmqSZ0CO3pwo2dKMH36UcglAkTLi5DrFPOA2rPBLMEWHc56upGH5C+Py2qQKyI3bmhXu6hGsVCNJ7tolyGcnce01kr4ca7NNhuj27okgzZbZK38uBZntEh8M7rXhVrl3nWMlOClKxFu1nPSHZt0z0Yi+lx5V8qjzx+XBhDROe95mQAAAABJRU5ErkJggg==",
             },
             {
                 name: "GitHub",
