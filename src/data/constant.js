@@ -113,6 +113,10 @@ export const skills = [
         title: "Others",
         skills: [
             {
+                name: "AWS",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+            },
+            {
                 name: "Git",
                 image:
                     "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
