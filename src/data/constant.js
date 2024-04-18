@@ -1,6 +1,8 @@
 export const Details = {
     name: "Rushikesh Shinde",
     roles: [
+        "Cloud Enthusiast", 
+        "Cyber Security Enthusiast",
         "Software Developer",
         "Android Developer",
         "UI/UX Designer",
