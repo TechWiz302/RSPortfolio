@@ -10,6 +10,8 @@ function Home() {
 
   const data = {
     roles: [
+      "Cloud Enthusiast",
+      "Cyber Security Enthusiast",
       "Full Stack Developer",
       "UI/UX Designer",
       "Programmer",
